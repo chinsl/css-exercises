@@ -37,3 +37,22 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+.container {
+  display: flex;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: column wrap;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+}
